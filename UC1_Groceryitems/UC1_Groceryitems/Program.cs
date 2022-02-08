@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPS
+namespace UC1_Groceryitems
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            InventoryManagement inventoryManagement = new InventoryManagement();
-            inventoryManagement.ReadData(@"C:\bridgelabz\OOPS\OOPS\OOPS\Inventory.json");
+            GroceryManagement inventory = new GroceryManagement();
+            inventory.ReadData(@"C:\bridgelabz\OOPS\UC1_Groceryitems\UC1_Groceryitems\Grocery.json");
             Console.ReadKey();
         }
     }

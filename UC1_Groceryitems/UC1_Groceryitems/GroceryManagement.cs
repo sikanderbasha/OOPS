@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPS
+namespace UC1_Groceryitems
 {
-    public class InventoryManagement
+    public class GroceryManagement
     {
         public void ReadData(string filepath)
         {
@@ -18,7 +18,7 @@ namespace OOPS
                 using (StreamReader reader = new StreamReader(filepath))
                 {
                     var json = reader.ReadToEnd();
-                    var items = JsonConvert.DeserializeObject<List<Inventory>>(json);
+                    var items = JsonConvert.DeserializeObject<List<Grocery>>(json);
                     Console.WriteLine("name\t" + "price\t" + "weight\t" + "total amount");
                     foreach (var item in items)
                     {

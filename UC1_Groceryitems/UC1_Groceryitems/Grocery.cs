@@ -4,13 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPS
+namespace UC1_Groceryitems
 {
-    public class Inventory
+    internal class Grocery
     {
         public string Name { get; set; }
         public int Price { get; set; }
         public int Weight { get; set; }
-
     }
 }
