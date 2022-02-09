@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "HDFC",
+    "Quantity": 50,
+    "SharePrice": 2500
+  },
+  {
+    "Name": "TCS",
+    "Quantity": 40,
+    "SharePrice": 3500
+  },
+  {
+    "Name": "Infosys",
+    "Quantity": 30,
+    "SharePrice": 1750
+  }  
+]
